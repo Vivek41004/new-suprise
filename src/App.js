@@ -239,10 +239,10 @@ export default function App() {
             </button>
             {/* Main (glowing, huggable) choice - no longer absolutely positioned */}
             <button
-              className="px-7 py-2 bg-pink-200 text-white font-pacifico text-lg rounded-full border-2 border-pink-400 shadow-xl animate-pulseGlow
-                cursor-pointer transition-all duration-150 outline-none ring-pink-200 focus:ring-4 hover:scale-105"
+              className="px-7 py-2 bg-pink-600 text-white font-pacifico text-lg rounded-full border-2 border-pink-800 shadow-xl animate-pulseGlow
+                cursor-pointer transition-all duration-150 outline-none ring-pink-600 focus:ring-4 hover:scale-105"
               style={{
-                boxShadow: "0 0 28px #ffb5d2ee, 0 5px 60px #ffb5d299",
+                boxShadow: "0 0 28px #d6336cdd, 0 5px 60px #d6336c99", /* Darker shadow */
                 zIndex: 50,
                 minWidth: 148,
               }}
